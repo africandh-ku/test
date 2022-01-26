@@ -1,0 +1,11 @@
+# main links
+main:
+  - title: Events
+    url: events
+  - title: Blog
+    url: blog
+  - title: Projects & Resources
+    url: resources
+  - title: People
+    url: people
+
