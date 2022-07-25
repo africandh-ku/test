@@ -16,7 +16,7 @@ _**Indaba** – from Zulu and Xhosa meaning ‘a matter for discussion’; can a
 <div id="posts">
   <ul>
     {% for item in events reversed %}
-      <li><span>{{ item.date | date_to_string }}</span><br/><strong><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></strong>
+      <li><span>{{ item.date | date_to_string }}</span><br/><strong><a href="{{ site.baseurl }}/test/{{ item.url }}">{{ item.title }}</a></strong>
         <br/>{{ item.description | markdownify }}
       </li>
 {% endfor %}
