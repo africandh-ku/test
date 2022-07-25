@@ -11,7 +11,7 @@ header:
 <div id="posts">
   <ul>
     {% for item in symposiums reversed %}
-      <li><span>{{ item.date | date_to_string }}</span><br/><strong><a href="{{ item.url }}">{{ item.title }}</a></strong>
+      <li><span>{{ item.date | date_to_string }}</span><br/><strong><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></strong>
         <br/>{{ item.description | markdownify }}
       </li>
 {% endfor %}
