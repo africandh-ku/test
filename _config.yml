@@ -12,20 +12,20 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "African Digital Humanites"
+title                    : #"African Digital Humanites"
 title_separator          : "-"
-subtitle                 : "Exploring the intersection of<br>traditional humanistic inquiry in Africa and digital media,<br>centering African perspectives and projects,<br>and fostering connections across regions." # site tagline that appears below site title in masthead
+subtitle                 : #"Exploring the intersection of<br>traditional humanistic inquiry in Africa and digital media,<br>centering African perspectives and projects,<br>and fostering connections across regions." # site tagline that appears below site title in masthead
 name                     : #"Your Name"
 description              : #"An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/cover-images/afdh-logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -151,6 +151,13 @@ footer:
 
 
 # Reading Files
+collections_dir: collections
+collections:
+  symposium:
+      output: true
+  events:
+      output: true
+future: true
 include:
   - .htaccess
   - _pages
@@ -277,10 +284,8 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
     values:
       layout: single
       classes: wide
@@ -290,18 +295,4 @@ defaults:
       share: false
       related: false
       header:
-        image: /assets/cover-images/header-sea-1280x200.jpg
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      classes: wide
-      author_profile: false
-      read_time: false
-      comments: # true
-      share: false
-      related: false
-      header:
-        image: /assets/cover-images/header-sea-1280x200.jpg
+        image: /assets/cover-images/kente-banner.jpg

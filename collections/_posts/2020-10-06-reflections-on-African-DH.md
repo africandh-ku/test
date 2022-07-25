@@ -1,13 +1,13 @@
 ---
 layout: single
 title: Reflections on African DH
-category: blog
+label: blog
 author: James Yeku
 ---
 
 ## #AfricanDH2020 and the Promise of An African Digital Humanities
 
-<img align="left" style="padding-right:10px" src="{{ site.baseurl }}/assets/adh-logo-1.jpg" alt="LOGO" width="200">
+<img align="left" style="padding-right:10px" src="{{ site.baseurl }}/assets/img/adh-logo-1.jpg" alt="LOGO" width="200">
 
 As more Africa-based scholars embrace the digital humanaities, we are presented with huge 
 opportunities, as Roopika Risam writes in [New Digital Worlds](https://www.google.com/books/edition/New_Digital_Worlds/txN-DwAAQBAJ?hl=en&gbpv=1&printsec=frontcover), to expand the digital cultural record, bringing postcolonial cultural productions in Africa in greater and more visible conversation with the affordances of digital media. This is why [the symposium on African digital storytelling](https://africandh.ku.edu/digital-storytelling-symposium-2020) at the University of Kansas is important. 

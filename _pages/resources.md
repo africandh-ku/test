@@ -2,24 +2,24 @@
 layout: single
 title: Projects & Resources
 permalink: resources
+header:
+  image: /assets/cover-images/nollywood-banner.jpg
 ---
 
-## KU projects
+List of projects, organizations, and other resources related to digital humanities in, from, or about Africa.
 
-* [Digital Nollywood](https://digitalnollywood.ku.edu/)
-* Onitsha 2.0 
-* [Migration Stories:Africans in Midwestern Communities](http://migrationstories.ku.edu/)
+<ul>
+{% assign item_list = site.data.resources | sort: "name" %}
+{% for item in item_list %}
+{% unless item.name == null %}
 
+<li>
+	<strong><a href="{{ item.url }}">{{ item.name }}</a></strong><br />
+	{{ item.description }}
+</li>
+<br/>
+{% endunless %}
+{% endfor %}
 
-## Other Africa-focused projects
+</ul>
 
-
-## Africa-related DH Projects
-* [African Heritage Project](https://africandigitalheritage.com/)
-* [The Global Poetics Project](https://globalpoetics.org/editor/)
-
-
-## Resources
-* [Network for Digital Humanities in Africa](https://dhafrica.blog/resources/)
-* [African DH Forum](https://africandh.ku.edu/2020/04/09/African-DH-Seminar/)
-* [University of Kansas Onitsha Market Literature Collection](https://exhibits.lib.ku.edu/exhibits/show/onitsha)

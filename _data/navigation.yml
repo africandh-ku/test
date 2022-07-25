@@ -1,6 +1,8 @@
 # main links
 main:
-  - title: Events
+  - title: Annual Symposium
+    url: symposium
+  - title: Indabas & Events
     url: events
   - title: Blog
     url: blog

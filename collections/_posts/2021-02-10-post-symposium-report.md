@@ -1,7 +1,7 @@
 ---
 layout: single
-title: A Post-Symposium Report
-category: blog
+title: "African Digital Stoytelling: A Post-Symposium Report"
+label: blog
 author: James Yeku
 ---
 
